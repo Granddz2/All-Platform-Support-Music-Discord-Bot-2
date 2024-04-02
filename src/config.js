@@ -3,7 +3,7 @@ require("dotenv").config();
 module.exports = {
     token: process.env.TOKEN || "",  // your bot token
     prefix: process.env.PREFIX || ".", // bot prefix
-    ownerID: process.env.OWNERID ||  ["1173547185758015498"], //your discord id
+    ownerID: process.env.OWNERID ||  ["1152704483231543379"], //your discord id
     mongourl: process.env.MONGO_URI || "mongodb+srv://pee33:wnn99e@cluster0.fgivnid.mongodb.net/?retryWrites=true&w=majority", // MongoDb URL
       topggapi : "",
      embedColor: process.env.COlOR || "#303037", // embed colour
